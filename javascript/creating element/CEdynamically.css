@@ -1,0 +1,24 @@
+.heading{
+    color: blue;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.button{
+    height: 50px;
+    width:160px;
+    padding: 5px;
+    margin: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(39, 134, 134);
+    border-width: 0px;
+    font-size: 15px;
+}
+.button:active{
+    background-color: brown;
+}

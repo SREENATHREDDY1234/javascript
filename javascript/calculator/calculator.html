@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>calculato fuhgir</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div class="first">
+        <input type="text" placeholder="0" id="inputElement"  readonly>
+        <div >
+            
+                <button class="operator" onclick="clearinput()" >AC</button>
+                <button class="operator" onclick="deleteLastCharacter()">DEL</button>
+                <button class="operator" onclick="appendValue('%')">%</button>
+                <button class="operator" onclick="appendValue('/')">/</button>
+              
+
+        </div>
+        <div>
+              
+                <button id="btn-1" onclick="appendValue('1')">1</button>
+                <button id="btn-2" onclick="appendValue('2')">2</button>
+                <button id="btn-3" onclick="appendValue('3')">3</button>
+                <button class="operator" onclick="appendValue('+')">+</button>
+              
+        </div>
+        <div>
+              
+                <button id="btn-4" onclick="appendValue('4')">4</button>
+                <button id="btn-5" onclick="appendValue('5')">5</button>
+                <button id="btn-6" onclick="appendValue('6')">6</button>
+                <button class="operator" onclick="appendValue('-')">-</button>
+              
+        </div>
+        <div>
+              
+                <button id="btn-7" onclick="appendValue('7')">7</button>
+                <button id="btn-8" onclick="appendValue('8')">8</button>
+                <button id="btn-9" onclick="appendValue('9')">9</button>
+                <button class="operator" onclick="appendValue('*')">*</button>
+              
+        </div>  
+        <div>
+                  
+                    <button id="btn-00" onclick="appendValue('00')">00</button>
+                    <button id="btn-0" onclick="appendValue('0')">0</button>
+                    <button onclick = "appendValue('.')">.</button>
+                    <button class="equalbtn" onclick="calculate()">=</button>
+                  
+        </div>
+        
+    </div>
+    <script src="./calculator.js"></script>
+    </body>
+</html>

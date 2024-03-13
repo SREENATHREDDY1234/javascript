@@ -1,0 +1,44 @@
+.bg-container{
+height: 100vh;
+align-items: center;
+}
+.color-picker-heading{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.button{
+    height: 120px;
+    width: 120px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.button-color-1{
+    background-color: #e0e0e0;
+}
+.button-color-2{
+    background-color: #6fcf97;
+}
+.button-color-3{
+    background-color: #56ccf2;
+}
+.button-color-4{
+    background-color: #bb6bd9;
+}
+.bg-color-heading{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.color-name{
+    color:#56ccf2;
+}
+.description{
+    font-size: 25px;
+}
