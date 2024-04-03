@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: 100vh;
+    padding: 30px;
+    background-color: #3a6781;
+}
+
+.main-heading {
+    font-size: 60px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+.checkbox-label {
+    color: white;
+    font-size: 25px;
+}
+
+.procced-btn{
+    font-size: 25px;
+}
