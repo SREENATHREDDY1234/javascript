@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ul class="list">
+            
+        </ul>
+    </div>
+    <script>
+            const url = "https://jsonplaceholder.typicode.com/albums";
+            const getapidata =async ()=>{
+                let response = await fetch(url);
+                let data = await response.json();
+                
+                console.log("getting api data ....")
+                return data
+            }
+            let data;
+            let list = document.querySelector(".list");
+            (async()=>{
+                data = await getapidata();
+                let listItems = data.map(ele => `<li>${ele.title}</li>`).join("");
+                list.innerHTML = listItems;
+                console.log(data);
+            })()
+            
+
+    </script>
+</body>
+</html>

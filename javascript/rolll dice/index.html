@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice game</title>
+</head>
+<body>
+    <div class="bg-container">
+        <h1>Dice Game</h1>
+        <div class="result-dice">
+            <img src="dice1.png" alt="" id="dice">
+        </div>
+        <h1>Select Your Number</h1>
+        <div class="all-dice">
+            <img src="dice1.png" onclick="set(0)">
+            <img src="dice2.png" onclick="set(1)">
+            <img src="dice3.png" onclick="set(2)">
+            <img src="dice4.png" onclick="set(4)">
+            <img src="dice5.png" onclick="set(5)">
+            <img src="dice6.png" onclick="set(6)">
+        </div>
+        <button onclick="rolldice()">roll dice</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+:root {
+    --clr-primary: #001e4d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: var(--clr-primary);
+    color: var(--clr-primary);
+}
+
+.app{
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 100px auto 0;
+}
+.home{
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 350px auto 0;
+}
+.app h1,.home h1 {
+    font-size: 25px;
+    border-bottom: 1px solid var(--clr-primary);
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.home h1{
+    font-size: 30px;
+}
+.home p{
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+
+.quiz {
+    padding: 20px 0px;
+}
+
+.quiz h2 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    background: white;
+    border: 2px solid #222;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #222;
+    text-align: left;
+    transition: all 0.3s linear;
+}
+
+.btn:hover:not([disabled]) {
+    background-color:#222;
+    color: white;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn,.home-button{
+    background: var(--clr-primary);
+    color: white;
+    padding: 10px 30px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.home-button{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: block;
+}
+.select{
+    background-color:var(--clr-primary);
+    color: white;
+}
+
+.app{
+    display: none;
+}
